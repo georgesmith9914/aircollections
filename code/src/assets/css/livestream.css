@@ -1,0 +1,83 @@
+videos {
+    background: #222;
+    margin: 0 0 20px 0;
+    width: 50%;
+    height: 80%
+    display: inline-block;
+}
+
+.video-container {
+  text-align: center;
+}
+
+.container{
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+}
+.box{
+  width: 50px;
+  height: 50px;            
+  position: absolute;
+  top: 150;
+  left: 400;
+  opacity: 0.8;  /* for demo purpose  */
+}
+.stack-top{
+  z-index: 9;
+  margin: 20px; /* for demo purpose  */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: transparent;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .imgandbutton {
+    position: fixed;
+    bottom: 0;
+    background: transparent;
+    color: #f1f1f1;
+    width: 10%;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  #myBtn {
+    width: 250px;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    background:darkorange;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  
+  #myBtn:hover {
+    background: #ff9933;
+    color:#fff;
+  }
