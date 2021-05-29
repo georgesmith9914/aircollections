@@ -1,5 +1,8 @@
 function buyNFT(){
     console.log("Entered in buyNFT function..");
+    if(ethereum.selectedAddress == null){
+      ethereum.enable();
+    }
     
     console.log(web3);
     
