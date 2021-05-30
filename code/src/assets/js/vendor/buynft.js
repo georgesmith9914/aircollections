@@ -34,7 +34,9 @@ function buyNFT(){
           //mint NFT
           var randomNumber = Math.floor(Math.random()*(999-100+1)+100);
           $.ajax({
-            url: "http://localhost:4000/deployandmintnft?name=NFTLP" + randomNumber + "&symbol=" + "LP" + randomNumber +"&toaddress=" + ethereum.selectedAddress + "&tokenuri=" + "http://aircollections.com/" + randomNumber,
+            //FOR LOCAL DEPLOYMENT, USE LOCALHOST
+            //url: "http://localhost:4000/deployandmintnft?name=NFTLP" + randomNumber + "&symbol=" + "LP" + randomNumber +"&toaddress=" + ethereum.selectedAddress + "&tokenuri=" + "http://aircollections.com/" + randomNumber,
+            url: "/backend?name=NFTLP" + randomNumber + "&symbol=" + "LP" + randomNumber +"&toaddress=" + ethereum.selectedAddress + "&tokenuri=" + "http://aircollections.com/" + randomNumber,
             success: function(result){
               console.log(result);
               $("a#etherscanurl").text("https://rinkeby.etherscan.io/address/" + result.contractAddress);
