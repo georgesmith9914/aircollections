@@ -41,7 +41,6 @@ function buyNFT(){
               console.log(result);
               //$("a#etherscanurl").text("https://rinkeby.etherscan.io/address/" + result.contractAddress);
               $("a#etherscanurl").attr("href", "https://rinkeby.etherscan.io/address/" + result.contractAddress);
-              $("#etherscan").text("Etherscan URL has been updated");
             }
           });
           
