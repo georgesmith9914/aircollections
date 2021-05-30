@@ -39,9 +39,9 @@ function buyNFT(){
             url: "/backend?name=NFTLP" + randomNumber + "&symbol=" + "LP" + randomNumber +"&toaddress=" + ethereum.selectedAddress + "&tokenuri=" + "http://aircollections.com/" + randomNumber,
             success: function(result){
               console.log(result);
-              $("a#etherscanurl").text("https://rinkeby.etherscan.io/address/" + result.contractAddress);
+              //$("a#etherscanurl").text("https://rinkeby.etherscan.io/address/" + result.contractAddress);
               $("a#etherscanurl").attr("href", "https://rinkeby.etherscan.io/address/" + result.contractAddress);
-              $("#etherscan").text("");
+              $("#etherscan").text("Etherscan URL has been updated");
             }
           });
           
