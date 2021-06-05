@@ -1,10 +1,10 @@
 # AirCollections
-World's first metaverse livestream commerce platform for NFTs.
+World's first livestream entertainment commerce platform for NFTs based on Solana Media Nework.
 
-AirCollections connects NFT creators with collectors and buyers in a video livestreaming experience in metaverse. NFT collectors and buyers can interact and purchase NFTs during and after the live video show in metaverse.
+AirCollections connects NFT creators with collectors and buyers in a video livestreaming entertainment experience using Solana Media Network https://solana.com/ecosystem/medianetwork. NFT collectors and buyers can interact and purchase NFTs during and after the live video show.
 
 # Technologies used
-AirCollections is built using Solana Media Network livestreaming technology, Mozilla Hubs, IPFS and Node.js
+AirCollections is built using Solana Media Network livestreaming technology https://solana.com/ecosystem/medianetwork, Solana SPL Token, IPFS and Node.js
 
 # To setup AirCollections
 1. cd code
