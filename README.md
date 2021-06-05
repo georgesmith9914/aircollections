@@ -1,6 +1,8 @@
 # AirCollections
 World's first livestream entertainment commerce platform for NFTs based on Solana Media Nework.
 
+View presentation here https://drive.google.com/file/d/1-srIpQBVYYFbPf1PmqGFA3sqmCp6FZbU/view?usp=sharing .
+
 AirCollections connects NFT creators with collectors and buyers in a video livestreaming entertainment experience using Solana Media Network https://solana.com/ecosystem/medianetwork. NFT collectors can drop NFTs during live shows and buyers can interact and purchase NFTs during and after the live video show.
 
 # Technologies used
