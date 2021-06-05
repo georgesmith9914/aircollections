@@ -1,3 +1,3 @@
 function buyNFT(){
-  window.location = "/backend"
+  window.location = "http://aircollections.com:3000"
 }
